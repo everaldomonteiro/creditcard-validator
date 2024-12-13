@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Validando Números de Cartões de Credito</title>
+    <style>
+        .valid {
+            border: 2px solid green;
+        }
+        .invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validando Números de Cartões de Credito</h1>
+    <input type="text" id="card" placeholder="Digite o número do cartão de credito">
+    <input type="button" value="Validar" onclick="validar()">
+    <div id="res"></div>
+</body>
+</html>
